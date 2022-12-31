@@ -9,5 +9,10 @@ namespace BlazorTodo
     {
         public string? Title { get; set; }
         public bool IsDone { get; set; } = false;
+
+        public TodoItem(string title)
+        {
+            Title = title;
+        }
     }
 }
